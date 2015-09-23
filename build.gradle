@@ -20,6 +20,7 @@ allprojects {
 
 ext {
     minSdkVersion = 11
+    buildToolsVersion = "23.0.1"
 }
 
 task clean(type: Delete) {
